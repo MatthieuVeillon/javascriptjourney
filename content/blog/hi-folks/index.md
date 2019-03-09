@@ -1,8 +1,42 @@
 ---
-title: New Beginnings
-date: "2015-05-28T22:40:32.169Z"
-description: This is a custom description for SEO and Open Graph purposes, rather than the default generated excerpt. Simply add a description field to the frontmatter.
+title: How to not learn Javascript.
+date: "2019-03-01"
+description: Javascript is hard to learn. It's hard to know what to learn with the ressources overload
 ---
+
+When I was preparing for my bootcamp a year and half ago I was tying to figure out the best way to learn. (still figuring...). What I learnt finally over the last year, is not what is the best way to learn Javascript, but rather what doesn't work for me.
+
+So instead of recommending you what to do, I'm gonna focus on what failed for me.
+
+The first questions I was trying to answer at the start is :
+- What to learn ?
+- How to learn ?
+
+Those are vast questions, and there are a lot of ressources for each. From a general perspective and really specific to Javascript.
+
+For both of those questions I had a systemic issue : **ressource overload**
+
+I was litteraly trying to read too much. Anytime I was seeing a good article or a link recommended by someone it was ending on a todo list somewhere.
+If you've been there, you might recognize you in the situation below :
+- List of paid course on Udemy that you haven't even started (I'm talking about those 2yrs old course which are now outdated)
+- Trello full of articles links that never shortens.
+- Medium bookmark section that is not even scrollable anymore.
+
+I'm still kind of there but I decided to not bookmark medium articles neither buying udemy course unless I'm actually starting
+It led me to think
+
+
+My learnings :
+- Not too many topic at the same time
+- Not too many ressources even in a future consideration. It doesn't
+
+-
+
+
+At the end I will still share what works for me :
+- setting a deadline for a specific topic, Learning Redux by end of march was not working for me. I ended spending 6 months learning it dilletently.
+-
+
 
 Far far away, behind the word mountains, far from the countries Vokalia and
 Consonantia, there live the blind texts. Separated they live in Bookmarksgrove
