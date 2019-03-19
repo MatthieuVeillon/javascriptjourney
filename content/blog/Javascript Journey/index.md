@@ -9,20 +9,20 @@ You can read more about me in the bio section, in short this blog is going to be
 
 I expect it to help me reach several objectives :
 
-1) discipline myself in learning and sharing (isn't it the best way to learn!) javascript content
-2) allow share my up and down in my developer journey (I didn't expect this roller coaster)
-3) playground to code
-4) practice my english
+1. discipline myself in learning and sharing (isn't it the best way to learn!) javascript content
+2. allow share my up and down in my developer journey (I didn't expect this roller coaster)
+3. playground to code
+4. practice my english
 
 Here are some subjects I intend to cover over 2019 (we'll see where we end!):
 
-- JS fundamentals
-- React in general
-- Redux
-- GraphQL
-- WebPack
-- Testing
-- Learning general advices
+    - JS fundamentals
+    - React in general
+    - Redux
+    - GraphQL
+    - WebPack
+    - Testing
+    - Learning general advices
 
 There are already many precious and experienced teachers out there, to name a few and some of my favorites :
 

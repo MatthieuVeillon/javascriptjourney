@@ -4,19 +4,32 @@ date: "2019-03-01"
 description: Javascript is hard to learn. It's hard to know what to learn with the ressources overload
 ---
 
-When I was preparing for my bootcamp a year and half ago I was tying to figure out the best way to learn. (still figuring...). What I learnt finally over the last year, is not what is the best way to learn Javascript, but rather what doesn't work for me.
+When I was preparing for my bootcamp a year and half ago I was trying to figure out the best way to learn. (still figuring...). What I learnt finally over the last year, is not what is the best way to learn Javascript, but rather what doesn't work for me.
 
 So instead of recommending you what to do, I'm gonna focus on what failed for me.
 
-The first questions I was trying to answer at the start is :
-- What to learn ?
-- How to learn ?
+- Asking the wrong questions 
+- Resources overload 
+- Too many topic at the same time (following my first job as a dev I had to learn Redux, c#, SQL, RxJs. Mixing all those together was a bad idea)
+- Planning and Chunking
+- 
 
-Those are vast questions, and there are a lot of ressources for each. From a general perspective and really specific to Javascript.
+1) Asking the wrong questions 
+The first question I was trying to answer at first were :
 
-For both of those questions I had a systemic issue : **ressource overload**
+## *What should I learn and what are the best resources to learn* ?
 
-I was litteraly trying to read too much. Anytime I was seeing a good article or a link recommended by someone it was ending on a todo list somewhere.
+Those are vast questions, and there are a lot of resources for each. From a general perspective and really specific to Javascript.
+
+
+
+
+2) Resources overload 
+For both of those questions I had a systemic issue : **resource overload**
+
+I was literaly trying to read too much. Anytime I was seeing a good article or a link recommended by someone it was ending on a todo list somewhere. I don't think there is something bad in itself in this behavior. 
+But to me, it always felt like I would never catch up on my plan, which is kind of depressing. 
+
 If you've been there, you might recognize you in the situation below :
 - List of paid course on Udemy that you haven't even started (I'm talking about those 2yrs old course which are now outdated)
 - Trello full of articles links that never shortens.
@@ -28,7 +41,8 @@ It led me to think
 
 My learnings :
 - Not too many topic at the same time
-- Not too many ressources even in a future consideration. It doesn't
+- Not too many ressources even in a future consideration. 
+- 
 
 -
 
