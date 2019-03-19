@@ -1,6 +1,6 @@
 ---
 title: How to not learn Javascript.
-date: "2019-03-01"
+date: "2019-03-19"
 description: Javascript is hard to learn. It's hard to know what to learn with the ressources overload
 ---
 
@@ -8,149 +8,98 @@ When I was preparing for my bootcamp a year and half ago I was trying to figure 
 
 So instead of recommending you what to do, I'm gonna focus on what failed for me.
 
-- Asking the wrong questions 
-- Resources overload 
+- Resources overload
+- Not knowing how to learn
 - Too many topic at the same time (following my first job as a dev I had to learn Redux, c#, SQL, RxJs. Mixing all those together was a bad idea)
-- Planning and Chunking
-- 
+- Not Planning and Chunking
+- Too much screen Time
+- Comparing to other too much
+- Not being indulgent to yourself
 
-1) Asking the wrong questions 
+##Resources overload##
+
+What should I learn and what are the best resources to learn out there ? Those were the first questions I asked. And Google served me well there,
+with a lot of good resources and opinionated learning roadmap.
+
+I was literally trying to read too much. Anytime I was seeing a good article or a link recommended by someone it was ending on a todo list somewhere.
+
+If you've been there, you might recognize you in the situation below :
+
+    - List of paid course on Udemy that you haven't even started (I'm talking about those 2yrs old course which are now outdated)
+    - Trello backlog full of articles links that never shortens.
+    - Medium bookmark section that is not even scrollable anymore.
+
+Bookmarking good content in itself is not a bad habit, but I felt like I would never catch up on my plan, which is kind of depressing.
+I'm still kind of there but I decided to not bookmark medium articles neither buying udemy course anymore.
+
+##Asking the wrong questions##
 The first question I was trying to answer at first were :
-
-## *What should I learn and what are the best resources to learn* ?
 
 Those are vast questions, and there are a lot of resources for each. From a general perspective and really specific to Javascript.
 
+##Not knowing how to learn##
+Before switching career, I did some Coursera/PMP certifications, but there were shortburst and the main objective was to get the certification - I was not paying attention on how I achieved this goal.
+When I entered the more technical field of web dev. It felt like a new world to me, where I would need to learn in a different way.
 
+At first my learning practice consisted mainly in reading article on a topic (according my neverending trello backlog), and then try to apply the learning in a side project.
+This is was at first intuitive to me, but while I was learning Redux, it was dissatisfying.
 
+- First because, there were always some more resources or links to go through. I kinda felt depressed to find **Mark Erikson** [awesome list or resources](https://github.com/markerikson/react-redux-links). as I felt like I should go through it .
+- Secondly because, I was trying to learn everything upfront at the same time. (redux, redux thunk, redux-connect, rxJs)
+- Finally because after a while I thought I was forgetting my previous learning.
 
-2) Resources overload 
-For both of those questions I had a systemic issue : **resource overload**
+After I took a step back - I decided to make some corrections in my approach :
 
-I was literaly trying to read too much. Anytime I was seeing a good article or a link recommended by someone it was ending on a todo list somewhere. I don't think there is something bad in itself in this behavior. 
-But to me, it always felt like I would never catch up on my plan, which is kind of depressing. 
+- Focus my learning on specific platforms/authors.
+- Chunking and Planning
+- Learning by repetition
 
-If you've been there, you might recognize you in the situation below :
-- List of paid course on Udemy that you haven't even started (I'm talking about those 2yrs old course which are now outdated)
-- Trello full of articles links that never shortens.
-- Medium bookmark section that is not even scrollable anymore.
+I have a [few authors / teachers](https://www.matthieuveillon.com/Javascript%20Journey/) who are my go to mentors because I like the way they teach.
+When I can't find what I'm looking through them, then I go in the wild - not before.
 
-I'm still kind of there but I decided to not bookmark medium articles neither buying udemy course unless I'm actually starting
-It led me to think
+Chunking and planning is discussed just below.
 
+As regards for repetition, I remember when I was at school preparing for some exams, I created those flashCard - they were a pain to make,
+but by the process of making them and having them around allowed me to get the best marks I ever got and still remember them. Fast forward 15 years later, I thought I could use some of this wisdom,
+by creating Cards on different learning topics. Cards that I then could refer to for repetition.
 
-My learnings :
-- Not too many topic at the same time
-- Not too many ressources even in a future consideration. 
-- 
+##Not Planning and Chunking##
 
--
+My main objective for 2018 was to learn Redux, GraphQL and Advanced React Internals while working on a side project. I haven't touched GraphQL, very few of React internals and my side project has seen a few commits but way less than I would have expected.
 
+The culprit ? The preceding learnings for sure, but also mainly the way I was planning my learning journey.
+Learning Redux is a big bold statement, but it didn't serve me well as I didn't feel I was making progress towards the overall statement.
 
-At the end I will still share what works for me :
-- setting a deadline for a specific topic, Learning Redux by end of march was not working for me. I ended spending 6 months learning it dilletently.
--
+Should I have before chunked Redux in some smaller part would have been preferable and more digest to learn.
 
+For 2019, I have some similar main goals (JS fundamentals - again..., GraphQL, Node) but in a way more specific manner. I try to chunk those big topic in weekly learning chunks, that I can apply in my side project.
 
-Far far away, behind the word mountains, far from the countries Vokalia and
-Consonantia, there live the blind texts. Separated they live in Bookmarksgrove
-right at the coast of the Semantics, a large language ocean. A small river named
-Duden flows by their place and supplies it with the necessary regelialia.
+##Too much screen Time##
 
-## On deer horse aboard tritely yikes and much
+I try to pay attention to my screen time - coming from project management world where meetings were the norm (for bad or for good),
+switching to dev was a huge increase into my computer hours. I feel it painful sometimes to go back at home to practice/learn coding in front of my computer.
 
-The Big Oxmox advised her not to do so, because there were thousands of bad
-Commas, wild Question Marks and devious Semikoli, but the Little Blind Text
-didn’t listen. She packed her seven versalia, put her initial into the belt and
-made herself on the way.
+That's where I like flashcards and books. Not all resources are equals, and some books are more helpful to sleep than to learn.
+Adjust accordingly to your energy level
 
-- This however showed weasel
-- Well uncritical so misled
-  - this is very interesting
-- Goodness much until that fluid owl
+##Comparing to other too much##
 
-When she reached the first hills of the **Italic Mountains**, she had a last
-view back on the skyline of her hometown _Bookmarksgrove_, the headline of
-[Alphabet Village](http://google.com) and the subline of her own road, the Line
-Lane. Pityful a rethoric question ran over her cheek, then she continued her
-way. On her way she met a copy.
+We're getting personal here, but during the bootcamp and through my job first year, I realized that I compared myself to my co-workers a lot.
+Doing so prevented me to learn from my environment as much as I could as I felt diminished when I wasn't performing enough.
 
-### Overlaid the jeepers uselessly much excluding
+It takes a lot of energy to manage this kind of emotion. This is a net loss that you cannot put in good use to learn from your coworkers or peers.
 
-But nothing the copy said could convince her and so it didn’t take long until a
-few insidious Copy Writers ambushed her, made her drunk with
-[Longe and Parole](http://google.com) and dragged her into their agency, where
-they abused her for their projects again and again. And if she hasn’t been
-rewritten, then they are still using her.
+I don't have the answer yet to this, but paying attention to this emotion and pattern allow me to avoid getting caught in too much.
+Knowing that my interest lies in welcoming learning opportunities rather than feeling diminished by them helps.
 
-> Far far away, behind the word mountains, far from the countries Vokalia and
-> Consonantia, there live the blind texts. Separated they live in Bookmarksgrove
-> right at the coast of the Semantics, a large language ocean.
+##Not being indulgent/empathic with yourself##
 
-It is a paradisematic country, in which roasted parts of sentences fly into your
-mouth. Even the all-powerful Pointing has no control about the blind texts it is
-an almost unorthographic life One day however a small line of blind text by the
-name of Lorem Ipsum decided to leave for the far World of Grammar.
+This is kind of linked to the previous point. I have moment in my journey where I mostly focus on what I'm lacking or not doing well enough.
 
-### According a funnily until pre-set or arrogant well cheerful
+When this happens I try to take a step back.
 
-The Big Oxmox advised her not to do so, because there were thousands of bad
-Commas, wild Question Marks and devious Semikoli, but the Little Blind Text
-didn’t listen. She packed her seven versalia, put her initial into the belt and
-made herself on the way.
+Learning to Code is hard.
 
-1.  So baboon this
-2.  Mounted militant weasel gregariously admonishingly straightly hey
-3.  Dear foresaw hungry and much some overhung
-4.  Rash opossum less because less some amid besides yikes jeepers frenetic
-    impassive fruitlessly shut
+Switching Career is hard.
 
-When she reached the first hills of the Italic Mountains, she had a last view
-back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet
-Village and the subline of her own road, the Line Lane. Pityful a rethoric
-question ran over her cheek, then she continued her way. On her way she met a
-copy.
-
-> The copy warned the Little Blind Text, that where it came from it would have
-> been rewritten a thousand times and everything that was left from its origin
-> would be the word "and" and the Little Blind Text should turn around and
-> return to its own, safe country.
-
-But nothing the copy said could convince her and so it didn’t take long until a
-few insidious Copy Writers ambushed her, made her drunk with Longe and Parole
-and dragged her into their agency, where they abused her for their projects
-again and again. And if she hasn’t been rewritten, then they are still using
-her. Far far away, behind the word mountains, far from the countries Vokalia and
-Consonantia, there live the blind texts.
-
-#### Silent delightfully including because before one up barring chameleon
-
-Separated they live in Bookmarksgrove right at the coast of the Semantics, a
-large language ocean. A small river named Duden flows by their place and
-supplies it with the necessary regelialia. It is a paradisematic country, in
-which roasted parts of sentences fly into your mouth.
-
-Even the all-powerful Pointing has no control about the blind texts it is an
-almost unorthographic life One day however a small line of blind text by the
-name of Lorem Ipsum decided to leave for the far World of Grammar. The Big Oxmox
-advised her not to do so, because there were thousands of bad Commas, wild
-Question Marks and devious Semikoli, but the Little Blind Text didn’t listen.
-
-##### Wherever far wow thus a squirrel raccoon jeez jaguar this from along
-
-She packed her seven versalia, put her initial into the belt and made herself on
-the way. When she reached the first hills of the Italic Mountains, she had a
-last view back on the skyline of her hometown Bookmarksgrove, the headline of
-Alphabet Village and the subline of her own road, the Line Lane. Pityful a
-rethoric question ran over her cheek, then she continued her way. On her way she
-met a copy.
-
-###### Slapped cozy a that lightheartedly and far
-
-The copy warned the Little Blind Text, that where it came from it would have
-been rewritten a thousand times and everything that was left from its origin
-would be the word "and" and the Little Blind Text should turn around and return
-to its own, safe country. But nothing the copy said could convince her and so it
-didn’t take long until a few insidious Copy Writers ambushed her, made her drunk
-with Longe and Parole and dragged her into their agency, where they abused her
-for their projects again and again.
+It's a long journey, and I should already be proud of where I am.
