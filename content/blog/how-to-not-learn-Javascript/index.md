@@ -1,7 +1,7 @@
 ---
 title: How to not learn Javascript.
 date: "2019-03-19"
-description: Javascript is hard to learn. It's hard to know what to learn with the ressources overload
+description: Javascript is hard to learn. It's hard to know what to learn with the resources overload
 ---
 
 When I was preparing for my bootcamp a year and half ago I was trying to figure out the best way to learn. (still figuring...). What I learnt finally over the last year, is not what is the best way to learn Javascript, but rather what doesn't work for me.
@@ -25,17 +25,14 @@ I was literally trying to read too much. Anytime I was seeing a good article or 
 
 If you've been there, you might recognize you in the situation below :
 
-    - List of paid course on Udemy that you haven't even started (I'm talking about those 2yrs old course which are now outdated)
-    - Trello backlog full of articles links that never shortens.
-    - Medium bookmark section that is not even scrollable anymore.
+> _- List of paid course on Udemy that you haven't even started (I'm talking about those 2yrs old course which are now outdated)_
+
+> _- Trello backlog full of articles links that never shortens._
+
+> _- Medium bookmark section that is not even scrollable anymore._
 
 Bookmarking good content in itself is not a bad habit, but I felt like I would never catch up on my plan, which is kind of depressing.
 I'm still kind of there but I decided to not bookmark medium articles neither buying udemy course anymore.
-
-##Asking the wrong questions##
-The first question I was trying to answer at first were :
-
-Those are vast questions, and there are a lot of resources for each. From a general perspective and really specific to Javascript.
 
 ##Not knowing how to learn##
 Before switching career, I did some Coursera/PMP certifications, but there were shortburst and the main objective was to get the certification - I was not paying attention on how I achieved this goal.
@@ -54,21 +51,21 @@ After I took a step back - I decided to make some corrections in my approach :
 - Chunking and Planning
 - Learning by repetition
 
-I have a [few authors / teachers](https://www.matthieuveillon.com/Javascript%20Journey/) who are my go to mentors because I like the way they teach.
+I have a [few authors / teachers](/javascript-journey/) who are my go to mentors because I like the way they teach.
 When I can't find what I'm looking through them, then I go in the wild - not before.
 
 Chunking and planning is discussed just below.
 
 As regards for repetition, I remember when I was at school preparing for some exams, I created those flashCard - they were a pain to make,
 but by the process of making them and having them around allowed me to get the best marks I ever got and still remember them. Fast forward 15 years later, I thought I could use some of this wisdom,
-by creating Cards on different learning topics. Cards that I then could refer to for repetition.
+by creating Cards on different learning topics. Cards that I then could refer to for repetition. The first one I made is about [Scope and Closure](../scope-and-closure/ScopeAndClosure.pdf).
 
 ##Not Planning and Chunking##
 
 My main objective for 2018 was to learn Redux, GraphQL and Advanced React Internals while working on a side project. I haven't touched GraphQL, very few of React internals and my side project has seen a few commits but way less than I would have expected.
 
-The culprit ? The preceding learnings for sure, but also mainly the way I was planning my learning journey.
-Learning Redux is a big bold statement, but it didn't serve me well as I didn't feel I was making progress towards the overall statement.
+The culprit ? The preceding points for sure, but also the way I was planning my learning journey.
+Learning Redux is a big bold statement, but it didn't serve me well as I didn't feel I was making progress towards the overall goal.
 
 Should I have before chunked Redux in some smaller part would have been preferable and more digest to learn.
 
@@ -80,11 +77,11 @@ I try to pay attention to my screen time - coming from project management world 
 switching to dev was a huge increase into my computer hours. I feel it painful sometimes to go back at home to practice/learn coding in front of my computer.
 
 That's where I like flashcards and books. Not all resources are equals, and some books are more helpful to sleep than to learn.
-Adjust accordingly to your energy level
+Adjust accordingly to your energy level.
 
 ##Comparing to other too much##
 
-We're getting personal here, but during the bootcamp and through my job first year, I realized that I compared myself to my co-workers a lot.
+We're getting personal here, but during the bootcamp and through my first job year, I realized that I compared myself to my co-workers. A lot.
 Doing so prevented me to learn from my environment as much as I could as I felt diminished when I wasn't performing enough.
 
 It takes a lot of energy to manage this kind of emotion. This is a net loss that you cannot put in good use to learn from your coworkers or peers.
