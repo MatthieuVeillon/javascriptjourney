@@ -3,10 +3,8 @@ title: Scope and Closure
 date: "2019-03-26"
 ---
 
-
-
-All the content below comes from Kyle Simpson and his fantastic serie of books [you don't know JS](https://github.com/getify/You-Dont-Know-JS).
-If you're trying to strengthen your understanding of javascript as I do, I can't recommend enough to read the books.
+_All the content below comes from Kyle Simpson and his fantastic serie of books [you don't know JS](https://github.com/getify/You-Dont-Know-JS).
+If you're trying to strengthen your understanding of javascript as I do, I can't recommend enough to read the books._
 
 The content below can be printed in a [pdf friendly version](./ScopeAndClosure.pdf).
 
@@ -25,6 +23,7 @@ That being said Javascript performs also some of the same steps that the compile
 - **Scope** : collects and maintains a lookup list of all the declared variable
 
 Let's dive in for some scenarios what does it mean :
+
 ```javascript
 var a = 2
 //which is equivalent to
@@ -56,16 +55,18 @@ console.log(b) // Uncaught ReferenceError: b is not defined
 <br />
 
 ```javascript
-'use strict'
+"use strict"
 b = 2
 console.log(b) // Uncaught ReferenceError: b is not defined
 
 //LHS fails as no b declaration
 //RHS lookup cannot find it in the scope
 ```
+
 <br />
 
 Without strict mode, global scope will create the variable for you
+
 ```javascript
 b = 2
 console.log(b) // 2
@@ -73,6 +74,7 @@ console.log(b) // 2
 //LHS on b creates a global variable when not found
 //RHS can then get the value and pas it along to console.log()
 ```
+
 <br />
 
 ```javascript
@@ -88,12 +90,12 @@ c() //Uncaught TypeError: c is not a function
 Lexical scope means that scope is only defined by **author time** decisions of **where functions are declared**:
 
 ```javascript
-function outerScope(a){
- console.log(a)
-    function innerScope(){
-        var a = 3
-        console.log(a)
-    }
+function outerScope(a) {
+  console.log(a)
+  function innerScope() {
+    var a = 3
+    console.log(a)
+  }
 }
 outerScope(2) // 2 3
 ```
@@ -107,24 +109,25 @@ It's good to know that there are 2 mechanisms that can cheat the lexical scope :
 
 **Therefore scope consists in a serie of bubbles.** There are several ways to create new bubbles/scope.
 
-* Function scope
-* Block Scope - let and const
+- Function scope
+- Block Scope - let and const
 
 ###Function scope :###
 A function creates a specific scope inside of which all variables declaration are contained to the scope. All variables declared this way can be accessed within the function and within nested function scope.
 There are several advantages to this functional scope
-* Principe of least privilege : recommendation in design software to expose only what is minimally necessary.
-* Collision avoidance : avoid collision between 2 different identifiers with the same name
+
+- Principe of least privilege : recommendation in design software to expose only what is minimally necessary.
+- Collision avoidance : avoid collision between 2 different identifiers with the same name
 
 ```javascript
 function outerScope() {
-    var a = 10
+  var a = 10
+  console.log(a)
+  function innerScope() {
+    var a = 3
     console.log(a)
-    function innerScope() {
-        var a = 3
-        console.log(a)
-    }
-    innerScope()
+  }
+  innerScope()
 }
 innerScope() // Uncaught ReferenceError: innerScope is not defined
 outerScope() // 10 3
@@ -134,25 +137,24 @@ outerScope() // 10 3
 A common example of similar design are some libraries, which depends on a specific namespace (usually an object) like lodash (_. ) or jQuery ($.). Those namespace are used to avoid collision between different properties / methods
 Nowadays libraries use module pattern and dependency manager avoiding the need to create global name.
 
-
 Functional scoping is powerful but as a few drawbacks, as you need to create a function (named or anonymous) and this pollutes the global scope. JS provides a solution for this
 
 ```javascript
-(function outerScope() {
-    //…code
+;(function outerScope() {
+  //…code
 })()
 ```
 
-
 Having **()** in front of the function keyword, change the function **nature** :
 
-* **function declaration** : if function keyword is the first word in statement
-* **function expression** : if function is preceded by other keyword ( (function… or const add = function()... or setTimeout( function()...)
+- **function declaration** : if function keyword is the first word in statement
+- **function expression** : if function is preceded by other keyword ( (function… or const add = function()... or setTimeout( function()...)
 
 There are a few differences between the 2 :
-* **function declaration are hoisted**, not function expression
-* **function expression does not create an identifier in the parent scope**, it hides it inside its own scope
-The example mentioned above immediately invoking the function is called **IIFE** (immediately invoked function expression)
+
+- **function declaration are hoisted**, not function expression
+- **function expression does not create an identifier in the parent scope**, it hides it inside its own scope
+  The example mentioned above immediately invoking the function is called **IIFE** (immediately invoked function expression)
 
 ###Block as scope - let and const###
 Let and const introduced by ES6 provides block scope.
@@ -160,30 +162,32 @@ Let and const introduced by ES6 provides block scope.
 Those keywords attach variable declaration to the scope of whatever block they are contained in.
 
 ```javascript
-if(true){
-    var a = 1
-    let b = 2
-    const c = 3
-    console.log(a,b,c) // 1 2 3
+if (true) {
+  var a = 1
+  let b = 2
+  const c = 3
+  console.log(a, b, c) // 1 2 3
 }
-console.log(a,b,c) // Uncaught ReferenceError: b is not defined (same for c)
+console.log(a, b, c) // Uncaught ReferenceError: b is not defined (same for c)
 ```
-
 
 ###Hoisting###
 Hoisting is the process through which JS engine ‘move’ variable and function declarations to the top of the code.
+
 ```javascript
 a = 2
 var a
 console.log(a) // 2
 ```
+
 <br />
 
 Some clarifications :
-* hoisting is **per scope** : it moves the variable declaration to the top of the enclosing scope
-* variable declaration with **let/const are not hoisted**
-* function expression are not hoisted neither
-* function are hoisted first and then variable declarations
+
+- hoisting is **per scope** : it moves the variable declaration to the top of the enclosing scope
+- variable declaration with **let/const are not hoisted**
+- function expression are not hoisted neither
+- function are hoisted first and then variable declarations
 
 ###Closure###
 
@@ -191,12 +195,12 @@ Closure is when function is able to remember and access its lexical scope even w
 Or simpler as W3school puts it : A closure is a function having access to the parent scope, even after the parent function has closed.
 
 ```javascript
-function addTwo(number){
-    var a = number + 2
-    function multiplyByTwo(){
-        console.log(a * 2)
-    }
-    return multiplyByTwo
+function addTwo(number) {
+  var a = number + 2
+  function multiplyByTwo() {
+    console.log(a * 2)
+  }
+  return multiplyByTwo
 }
 const six = addTwo(1)
 six() // 6
@@ -206,10 +210,10 @@ six() // 6
 // Even if multiplyByTwo is called outside of its declared scope (through six()),
 // it still has access to the inner scope of addTwo. That’s what we call closure.
 ```
+
 <br />
 
 Real life examples : Callbacks and Module Pattern
-
 
 ```javascript
 // CALLBACKS
@@ -222,20 +226,21 @@ wait(’Thanks Kyle’)
 //Timer has a scope closure over the inner scope of wait,
 //which maintains a reference to the message variable
 ```
+
 <br/>
 
 ```javascript
 //MODULE PATTERN
 function module() {
-    const name = "js journey"
+  const name = "js journey"
 
-    function getName() {
-        console.log(name)
-    }
+  function getName() {
+    console.log(name)
+  }
 
-    return {
-        getName:getName
-    }
+  return {
+    getName: getName,
+  }
 }
 const firstModule = module()
 firstModule.getName()
@@ -245,8 +250,9 @@ Calling module() assigns its return value (the object with getName as a method) 
 The advantage of this pattern is that it only exposes as public API what you’ve chosen to return as a value
 
 Module pattern requires :
-* An outer wrapping function being invoked to create the enclosing scope
-* The return value of the wrapping function must include a reference to at least one inner function
+
+- An outer wrapping function being invoked to create the enclosing scope
+- The return value of the wrapping function must include a reference to at least one inner function
 
 I hope this helped you better understand (as it helped me) the building blocks that Scope and Closure to Javascript.
 
