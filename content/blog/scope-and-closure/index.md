@@ -213,6 +213,30 @@ six() // 6
 
 <br />
 
+Closure closes on references not values : 
+
+```javascript
+function addTwo(number) {
+  var a = number + 2
+  function multiplyByTwo() {
+    console.log(a * 2)
+  }
+  a = 4
+  return multiplyByTwo
+}
+const six = addTwo(1)
+six() // 8 not 6
+
+// when six is called, it access the return favue of addTwo 
+// which itself is the function definition of multiplyByTwo 
+// which has closes over the variables from its scope. 
+//The variable a which has the value of 4 when multiplybyTwo is returned
+```
+
+
+
+<br />
+
 Real life examples : Callbacks and Module Pattern
 
 ```javascript
