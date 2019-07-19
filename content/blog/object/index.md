@@ -49,11 +49,11 @@ typeof strObject //'object'
 Object.prototype.toString.call(strObject) //[object String] - it reveals that strObject was created by String constructor
 ```
 
-The primitive value `I am a string` is not an object - it's a **primitive litteral and immutable value**. To perform operation on it such as `.length`, we need a `String object`. Fortunately JS automatically coerces a string primitive to a String object when necessary.
+The primitive value `I am a string` is not an object - it's a **primitive literal and immutable value**. To perform operation on it such as `.length`, we need a `String object`. Fortunately JS automatically coerces a string primitive to a String object when necessary.
 
 - `Number` and `Boolean` behave the same as `String`
-- whereas `Date` can only be created by their constructed object form as it has no litteral form counterpart.
-- `Object` , `Arrays` , `Function` and `Regex` are all object regardless of wether the litteral or constructed form is used
+- whereas `Date` can only be created by their constructed object form as it has no literal form counterpart.
+- `Object` , `Arrays` , `Function` and `Regex` are all object regardless of wether the literal or constructed form is used
 
 #### Content
 
@@ -110,7 +110,7 @@ Sometimes you want to make object that cannot be changed. ES5 adds support for d
 
 ##### Object constant
 
-To create a property that cannot be changed,redfined or deleted - you can combine `writable: false` and `configurable: false`
+To create a property that cannot be changed,redefined or deleted - you can combine `writable: false` and `configurable: false`
 
 ##### Prevent extensions
 
@@ -191,7 +191,7 @@ myObject.hasOwnProperty("b") //false
 
 Difference :
 
-- the `in` operator goes up in the _Prototype_ chain werheas `hasOwnProperty` checks if the property exists directly on the object
+- the `in` operator goes up in the _Prototype_ chain whereas `hasOwnProperty` checks if the property exists directly on the object
 
 When you set `enumerable` property descriptor to `false`, the property still exists on the object itself but **wont be included if the object are iterated through** like in a `for...in` loop
 
@@ -210,3 +210,13 @@ it.next() //{value:2, done:false}
 it.next() //{value:3, done:false}
 it.next() //{done:true}
 ```
+
+
+#### **Active Retrieval**
+
+To end this article, here are a few questions you can ask/challenge yourself to make sure you have understood/ the core concept. I would suggest to even come back in a week to those questions and ask them again.  
+
+- What are the types and subtypes of JS primitives ? 
+- Enumerate the property descriptors and their use on object 
+- What are the built in way to iterate through objects ? 
+- What are the difference between data accessor and accessor descriptor and how do they relate to property descriptors ?

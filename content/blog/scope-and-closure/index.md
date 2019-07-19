@@ -280,4 +280,14 @@ Module pattern requires :
 
 I hope this helped you better understand (as it helped me) the building blocks that Scope and Closure to Javascript.
 
+
+#### **Active Retrieval**
+
+To end this article, here are a few questions you can ask/challenge yourself to make sure you have understood/ the core concept. I would suggest to even come back in a week to those questions and ask them again.  
+
+- Difference between RHS and LHS ? 
+- What are the different scopes in JS ? 
+- What is hoisting and what JS concepts are hoisted, and which aren't ?
+- Explain Closure with your own words 
+
 see you soon

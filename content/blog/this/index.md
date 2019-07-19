@@ -49,7 +49,7 @@ So what is really `this` ?
 
 The Call Site is the location in the code where a function is called.
 
-As a general rule the call stack provides you the call site. The call site of a function you're breaked on, will be located in the previous line of the call stak you're inspecting.
+As a general rule the call stack provides you the call site. The call site of a function you're breaked on, will be located in the previous line of the call stack you're inspecting.
 
 ```javascript
 function bar() {
@@ -67,13 +67,13 @@ bar()
 
 Based on the call site there are 4 rules that drives the `this` binding.
 
-They are applied in this specific order, meaning the first one takes precendence on the others
+They are applied in this specific order, meaning the first one takes precedence on the others
 
-1. **Default** Binding
 
-2. **Implicit** Binding
-3. **Explicit** Binding
-4. **New** Binding
+1. **New** Binding
+2. **Explicit** Binding
+3. **Implicit** Binding
+4. **Default** Binding
 
 #### Default Binding
 
@@ -219,11 +219,11 @@ var b = bar(3)
 console.log(b) //5
 ```
 
-ES5 introduced **bind**, a utility wrapper, which returns a new function that is hardcoded to call the orifinal function with the `this` context set as you specified
+ES5 introduced **bind**, a utility wrapper, which returns a new function that is hardcoded to call the original function with the `this` context set as you specified
 
 ####New binding
 
-When a function is invoked with the `new` keyword in front of it, the following things are done aurtomatically:
+When a function is invoked with the `new` keyword in front of it, the following things are done automatically:
 
 - a brand new object is created
 - the newly constructed object is `[[Prototype]]`-linked.
@@ -233,7 +233,7 @@ When a function is invoked with the `new` keyword in front of it, the following 
 The 4 rules are applied in this order (if the first one isn't valid, the second one is considered). If function is :
 
 - called with `new` binding. If so `this` is the **newly constructed object**
-- called with `call` or `apply`. If so `this` is **the explicitely specified object**
+- called with `call` or `apply`. If so `this` is **the explicitly specified object**
 - called with a context object. If so `this` is **the context object**
 - otherwise `this` is **global object** or **undefined** depending on strict mode
 
@@ -250,3 +250,12 @@ const obj = {
 }
 foo.call(obj) //2 - the this value is not lost with the parameter assignment
 ```
+
+####Active Retrieval
+
+Here are some questions to ask myself/yourself to strengthen the learnings and make it stick : 
+
+- what are the 4 rules which drive This and how they interact with each others ? 
+- what are the 3 methods to use explicit binding and what are their differences ? 
+- what are the 4 side Effects of calling a function with the new keyword ?
+- what is a common pitfall with implicit binding and this ?

@@ -213,7 +213,7 @@ But that object doesn't have a `.constructor` either as we changed the default, 
 
 ####Prototypal Inheritance (or truly delegation)
 
-We've already seen how an object can "inherit" from an other object. But Inheritance is traditionnaly the mechanism from which a class inherits from an other and not the relation between an instance and a class.
+We've already seen how an object can "inherit" from an other object. But Inheritance is traditionally the mechanism from which a class inherits from an other and not the relation between an instance and a class.
 
 See the 2 relations below :
 
@@ -390,3 +390,15 @@ Main Benefits :
 
   - `Button` is declared directly to "inherit from" aka `extends` instead of using `Object.Create()`
   - `super()` allow direct _relative polymorphism_ so that any method can refer **one** level up in the chain to a method with the same name.
+
+
+#### **Active Retrieval**
+
+To end this article, here are a few questions you can ask/challenge yourself to make sure you have understood/ the core concept. I would suggest to even come back in a week to those questions and ask them again.  
+
+- Explain Relative/Pseudo Polymorphism and what issue Mixin are trying to solve 
+- What is the prototype chain and how are object properties retrieve through it ?
+- What is the constructor property ? 
+- Difference between __proto__ and prototype properties and why its misleading ? 
+- How can you use reflection in JS ? 
+
